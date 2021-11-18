@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Brandon Nguyen</title>
+</head>
+<body>
+    <!--Navbar-->
+    <nav class="navbar fixed-top">
+        <div class="container-fluid">
+        <a class="navbar-brand" href="#">Brandon's Portfolio</a>
+        <img src="Assets/green-sun-icon.jpg" class="icon-img" alt="icon">
+        <a class="nav-link active" aria-current="page" href="#about-me">About Me</a>
+        <a class="nav-link" href="#cards-header">Projects</a>
+        <a class="nav-link" href="#my-form">Contact Me</a>
+        </div>
+    </nav>
+    <!--Name Section-->
+    <section id="name">
+        <div class="container">
+            <div>
+            <h1 class="name-head">Welcome to Brandon Nguyen's Portfolio . . .</Welcome></h1><br>
+        </div>
+    </div>
+    </section>
+    <!--About Me Section-->
+    <section id="about-me">
+        <div class="about-info">
+            <h1 class="about-heading">About <span id="me">Me</span></h1>
+            <h5 class="about-heading2"><span id="aspiring">Aspiring</span> Web Developer</h5>
+            <p class="about-description">Hello nice to meet you, my name is <span id="name">Brandon Nguyen</span>, and I'm an aspiring <span id="web-dev">Web Developer</span>.
+            My story started out as a lost college IUPUI undergraduate majoring in Psychology. After the realization I didn't know what I wanted to do with my career, so on a whim I attended an introductory course at <span id="eleven">Eleven Fifty</span>. After that I discovered my new found appreciation for <span id="computer">Computer Science</span> and <span id="web-dev">Web Development</span> at Eleven Fifty Academy as a student.
+            </p>
+            <p class="about-description2">If you would like to get to know more about me please use my <a href="#my-form" id="contact-me">Contact Me</a> form below.</p>
+            <h5 class="skills">Skills:</h5>
+                <div id="fontIcons">
+                    <i id="html5" class="fab fa-html5"></i>
+                    <i id="css" class="fab fa-css3-alt"></i>
+                    <i id="js" class="fab fa-js-square"></i>
+                    <i class="fab fa-github"></i>
+                    <i id="bootstrap" class="fab fa-bootstrap"></i>
+                </div>
+            <a href="#" type="button" class="about-btn">Download Resume</a>
+        </div>
+    </section>
+    <!--Card Projects Section-->
+    <h1 id="cards-header">Projects</h1>
+    <section id="cards">
+        <div class="card" style="width: 25rem;">
+            <img src="Assets/owl-codepen.JPG" class="card-img-top" alt="CSS Creatures">
+            <div class="card-body">
+                <h5 class="card-title">CSS Creatures : Owl</h5>
+                <h6>Week 1:</h6>
+                <ul class="card-text">
+                    <li>CodePen project to create a CSS Creature using only HTML and CSS.</li>
+                    <li>Was a fun project to do within the 1st week of learning code and test my knowledge of HTML and CSS.</li>
+                </ul>
+                <a href="https://codepen.io/brandonthedev360/pen/bGrqJpL" target="_blank" class="btn">Open CSS Creatures</a>
+            </div>
+        </div>
+        <div class="card" style="width: 25rem;">
+            <img src="Assets/static-layout.JPG" class="card-img-top" alt="Static Layout">
+            <div class="card-body">
+                <h5 class="card-title">Static Layout : Kast</h5>
+                <h6>Week 2:</h6>
+                <ul class="card-text">
+
+                    <li>Use HTML5 & CSS to recreate the layout for the page as closely as possible</li>
+                    
+                    <li>Any buttons on the page must open to a blank tab.</li>
+                    
+                    <li>Any links referring another section on the page must go to that section.</li>
+                    
+                    <li>The finished project must be deployed  to Github Pages </li>
+                    
+                    <li>The site must utilize animation if it is present on the page</li>
+                    
+                </ul>
+                <a href="https://brandonthedev360.github.io/Static-Layout/" target="_blank" class="btn">Open Static Layout</a>
+            </div>
+        </div>
+        <div class="card" style="width: 25rem;">
+            <img src="Assets/cat-fact.JPG" class="card-img-top-cat" alt="API Project 1">
+            <div class="card-body">
+                <h5 class="card-title">API Project 1 : Cat Fact Generator</h5>
+                <h6>Week 3:</h6>
+                <ul class="card-text">
+                    <li>Generates Cat Facts when you press the "Get a Cat Fact" Button</li>
+
+                    <li>Utilizes fetch to pull data from an external API</li>
+                    
+                    <li>Use of DOM manipulation to display data from the API to html.</li>
+                    
+                    <li>Utilizes Async/Await</li>
+                    
+                    <li>Deploy to Github Pages </li>
+                    
+                    
+                </ul>
+                <a href="https://brandonthedev360.github.io/API-Project-1/" target="_blank" class="btn">Open API Project 1</a>
+            </div>
+        </div>
+        <div class="card" style="width: 25rem;">
+            <img src="Assets/crypto-dashboard.JPG" class="card-img-top" alt="API Project 2">
+            <div class="card-body">
+                <h5 class="card-title">API Project 2 : Crypto Dashboard</h5>
+                <h6>Week 4:</h6>
+                <ul class="card-text">
+                    <li>Fetches Data from the CryptoRanking's API and displays the top 50 Crypto Currencies</li>
+
+                    <li>Crypto Currency Data updates off refresh.</li>
+
+                    <li>Utilizes fetch to pull data from an external API</li>
+                    
+                    <li>Utilizes an API Key</li>
+
+                    <li>Use of DOM manipulation to display data from the API to html.</li>
+                    
+                    <li>Utilizes Async/Await</li>
+                    
+                    <li>Deploy to Firebase </li>
+                    
+                    <li>Uses bootstrap</li>
+                    
+                </ul>
+                <a href="https://api-project-2-d8574.web.app/" target="_blank" class="btn">Open API Project 2</a>
+            </div>
+        </div>
+    </section>
+    <!--Form-->
+    <form id="my-form" action="https://formspree.io/f/xknkdqkw" method="POST">
+        <h4 id="contact-head">Contact Me</h4>
+        <label>Email:</label>
+        <input placeholder="your@email.com" type="email" name="email" /> <br>
+        <label id="form-message">Message:</label>
+        ​<textarea id="txtArea" rows="7" cols="40" placeholder="What's on your mind?"></textarea>
+        <button id="my-form-button">Submit</button>
+        <p id="my-form-status"></p>
+    </form>
+<script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+<script>
+window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};   
+formbutton("create", {
+    action: "https://formspree.io/f/xknkdqkw",
+    title: "How can I help?",
+    fields: [
+    { 
+        type: "email", 
+        label: "Email:", 
+        name: "email",
+        required: true,
+        placeholder: "your@email.com"
+    },
+    {
+        type: "textarea",
+        label: "Message:",
+        name: "message",
+        placeholder: "What's on your mind?",
+    },
+    { type: "submit" }      
+    ],
+    styles: {
+    title: {
+        backgroundColor: "#24ae8f"
+    },
+    button: {
+        backgroundColor: "#24ae8f"
+    }
+    }
+});
+</script>
+<script src="app.js"></script>
+<script src="https://kit.fontawesome.com/9ee01744e0.js" crossorigin="anonymous"></script>
+</body>
+</html>
