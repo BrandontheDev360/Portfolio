@@ -148,7 +148,9 @@ body {
     width: auto;
     transition: .3s ease;
     overflow: hidden;
-    position: relative; 
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 #cards {
@@ -159,10 +161,10 @@ body {
     margin-top: 3.125rem;
 }
 
-.card-img-top-cat {
+/* .card-img-top-cat {
     width: auto;
     transition: .3s ease ;
-}
+} */
 
 .card-img-top:after {
     content: '';
