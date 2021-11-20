@@ -23,8 +23,11 @@ a {
     color: #24ae8f;
 }
 
-/* @media (max-width: 500px) {
-
+/* @media (min-width: 350px) {
+    #fontIcons {
+        margin-left: 6rem;
+    }
+    
 } */
 
 .container {
@@ -50,7 +53,7 @@ a {
     /* font-size: 50px; */
     position: relative;
     font-family: 'Source Sans Pro', monospace;
-    margin-bottom: 25rem;
+    margin-bottom: 30rem;
 }
 
 .name-head::before,
@@ -90,6 +93,7 @@ a {
     background-image: url(./Assets/green-sun.jpg);
     background-size: cover;
     background-position: bottom center;
+    background-repeat: no-repeat;
     position:relative;
 }
 
@@ -275,13 +279,18 @@ body {
     letter-spacing: 2px;
     margin-left: 10rem;
     margin-right: 10rem;
-    width: min(45%);
+    width: min(55%);
 }
 
 #fontIcons {
     font-size: 6rem;
     margin-top: 1.875rem;
     color: #24ae8f;
+    display: flex;
+    flex-wrap: wrap;    
+    letter-spacing: 2px;
+    justify-content: space-between;
+    min-width: 300px;
 }
 
 #html5 {
@@ -330,6 +339,7 @@ body {
     margin-top: 18rem;
     margin-bottom: 15rem;
     width: min(35%);
+    min-width: 25rem;
     min-height: 25rem;
 }
 
