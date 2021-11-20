@@ -40,6 +40,11 @@ a {
     flex-wrap: wrap;
 }
 
+.container-fluid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .name-head {
     font-size: clamp(3rem, 7vmin, 3rem);
     /* font-size: 50px; */
