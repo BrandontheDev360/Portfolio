@@ -264,6 +264,10 @@ body {
     color: #7308f5;
 }
 
+/* #github {
+    
+} */
+
 .about-description {
     margin-left: 25rem;
     margin-right: 25rem;
@@ -294,6 +298,11 @@ body {
     justify-content: space-between;
     min-width: 18rem;
     min-height: 10rem;
+    
+}
+
+#fontIcons > i {
+    margin: .3rem;
 }
 
 #html5 {
