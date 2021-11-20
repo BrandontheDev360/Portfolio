@@ -234,7 +234,7 @@ body {
 }
 
 .skills {
-    font-size: 5vh;
+    font-size: 3rem;
     color: white;
     margin-top: 1.25rem;
 }
@@ -330,7 +330,7 @@ body {
     text-decoration: none;
     font-weight: bold;
     transition: .4s;
-    margin-top: 40px;
+    margin-top: 2.5rem;
 }
 
 .about-btn:hover {
