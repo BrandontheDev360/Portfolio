@@ -291,7 +291,7 @@ body {
     letter-spacing: 2px;
     justify-content: space-between;
     min-width: 18rem;
-    min-height: 20rem;
+    min-height: 10rem;
 }
 
 #html5 {
@@ -319,7 +319,7 @@ body {
     text-decoration: none;
     font-weight: bold;
     transition: .4s;
-    margin-top: 80px;
+    margin-top: 40px;
 }
 
 .about-btn:hover {
