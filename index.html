@@ -10,7 +10,7 @@
 </head>
 <body>
     <!--Navbar-->
-    <nav class="navbar fixed-top">
+    <nav class="navbar sticky-top">
         <div class="container-fluid">
         <a class="navbar-brand" href="#">Brandon's Portfolio</a>
         <img src="Assets/green-sun-icon.jpg" class="icon-img" alt="icon">
@@ -22,9 +22,7 @@
     <!--Name Section-->
     <section id="name">
         <div class="container">
-            <div>
             <h1 class="name-head">Welcome to Brandon Nguyen's Portfolio . . .</Welcome></h1><br>
-        </div>
     </div>
     </section>
     <!--About Me Section-->
@@ -32,7 +30,7 @@
         <div class="about-info">
             <h1 class="about-heading">About <span id="me">Me</span></h1>
             <h5 class="about-heading2"><span id="aspiring">Aspiring</span> Web Developer</h5>
-            <p class="about-description">Hello nice to meet you, my name is <span id="name">Brandon Nguyen</span>, and I'm an aspiring <span id="web-dev">Web Developer</span>.
+            <p class="about-description" style="text-indent: 2.5rem">Hello nice to meet you, my name is <span id="name">Brandon Nguyen</span>, and I'm an aspiring <span id="web-dev">Web Developer</span>.
             My story started out as a lost college IUPUI undergraduate majoring in Psychology. After the realization I didn't know what I wanted to do with my career, so on a whim I attended an introductory course at <span id="eleven">Eleven Fifty</span>. After that I discovered my new found appreciation for <span id="computer">Computer Science</span> and <span id="web-dev">Web Development</span> at Eleven Fifty Academy as a student.
             </p>
             <p class="about-description2">If you would like to get to know more about me please use my <a href="#my-form" id="contact-me">Contact Me</a> form below.</p>
@@ -49,7 +47,7 @@
     </section>
     <!--Card Projects Section-->
     <h1 id="cards-header">Projects</h1>
-    <section id="cards">
+    <section class="container-fluid" id="cards">
         <div class="card" style="width: 25rem;">
             <img src="Assets/owl-codepen.JPG" class="card-img-top" alt="CSS Creatures">
             <div class="card-body">
@@ -133,15 +131,17 @@
         </div>
     </section>
     <!--Form-->
+    <div class="container-fluid" id="form-container">
     <form id="my-form" action="https://formspree.io/f/xknkdqkw" method="POST">
         <h4 id="contact-head">Contact Me</h4>
         <label>Email:</label>
         <input placeholder="your@email.com" type="email" name="email" /> <br>
         <label id="form-message">Message:</label>
-        ​<textarea id="txtArea" rows="7" cols="40" placeholder="What's on your mind?"></textarea>
+        ​<textarea id="txtArea" rows="7" cols="35" placeholder="What's on your mind?" onkeyup="textAreaAdjust(this)" style="overflow:hidden"></textarea>
         <button class="my-form-button">Submit</button>
         <p id="my-form-status"></p>
     </form>
+</div>
 <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
 <script>
 window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};   

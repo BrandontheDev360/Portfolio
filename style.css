@@ -1,15 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 
-* {
+*,
+*::before,
+*::after {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
+@viewport {
+    zoom: 1.0;
+    width: extend-to-zoom;
+}    
+
+@-ms-viewport {
+        width: extend-to-zoom;
+        zoom: 1.0;
+    }
+
 a {
     text-decoration: none;
     color: #24ae8f;
 }
+
+/* @media (max-width: 500px) {
+
+} */
 
 .container {
     min-height: 100vh;
@@ -20,13 +36,16 @@ a {
     color: #24ae8f;
     font-family:'Source Sans Pro', monospace;
     font-size: 2.5rem;
+    width: min(100%);
+    flex-wrap: wrap;
 }
 
 .name-head {
-    font-size: 50px;
+    font-size: clamp(3rem, 7vmin, 3rem);
+    /* font-size: 50px; */
     position: relative;
     font-family: 'Source Sans Pro', monospace;
-    margin-bottom: 400px;
+    margin-bottom: 25rem;
 }
 
 .name-head::before,
@@ -41,13 +60,13 @@ a {
 
 .name-head::before {
     background-image: url(./Assets/green-sun.jpg);
-    animation: typewriter 3.5s steps(37) forwards;
+    animation: typewriter 3.5s steps(39) forwards;
 }
 
 .name-head::after {
     width: 0.124em;
     background: #24ae8f;
-    animation: typewriter 3.5s steps(37) forwards, blink 675ms steps(37) infinite;
+    animation: typewriter 3.5s steps(39) forwards, blink 675ms steps(39) infinite;
 }
 
 @keyframes typewriter {
@@ -77,12 +96,15 @@ body {
     background-color:rgba(20, 30, 50, 0.8);
 } */
 
-.navbar
-{
+.navbar {
     border: 3px solid #24ae8f;
     border-radius: 5px 5px;
     /* background-color: black; */
     background-color: #1c1c1c ;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 .navbar-brand {
@@ -125,7 +147,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    margin-top: 50px;
+    margin-top: 3.125rem;
 }
 
 .card-img-top-cat {
@@ -170,7 +192,7 @@ body {
 }
 
 #about-me {
-    margin-top: 50px;
+    margin-top: 3.125rem;
 }
 
 #name {
@@ -187,23 +209,23 @@ body {
     justify-content: center;
     flex-direction: column;
     color: white;
-    width: 100%;
+    /* width: 100%; */
 }
 
 .about-heading2 {
-    font-size: 30px;
-    padding: 10px;
+    font-size: 1.875rem;
+    padding: 0.625rem;
 }
 
 .about-heading {
     color: white ;
-    font-size: 60px;
+    font-size: 3.75rem;
 }
 
 .skills {
     font-size: 5vh;
     color: white;
-    margin-top: 20px;
+    margin-top: 1.25rem;
 }
 
 #me {
@@ -226,11 +248,19 @@ body {
     color: white;
 }
 
+#contact-me:hover {
+    background-color: transparent;
+    color: #7308f5;
+}
+
 .about-description {
-    margin-left: 400px;
-    margin-right: 400px;
+    margin-left: 25rem;
+    margin-right: 25rem;
     color: #24ae8f;
-    letter-spacing: 2px;
+    letter-spacing: 0.125rem;
+    width: min(75%);
+    /* font-size: clamp(1rem, 2vmin, 1rem); */
+
 }
 
 .about-description2 {
@@ -238,11 +268,14 @@ body {
     margin-right: 100px; */
     color: #24ae8f;
     letter-spacing: 2px;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    width: min(45%);
 }
 
 #fontIcons {
-    font-size: 10vh;
-    margin-top: 30px;
+    font-size: 6rem;
+    margin-top: 1.875rem;
     color: #24ae8f;
 }
 
@@ -266,7 +299,7 @@ body {
     border-radius: 30px;
     background-color:black ;
     color: #24ae8f;
-    padding: 6px 12px;
+    padding: 12px 24px;
     border: 2px solid transparent;
     text-decoration: none;
     font-weight: bold;
@@ -282,21 +315,26 @@ body {
 #my-form {
     display: flex;
     align-items: center;
-    justify-content: center;
     flex-direction: column;
     color: #24ae8f;
-    border: 3px solid #24ae8f;
-    margin-top: 300px;
-    margin-left: 700px;
-    margin-right: 700px;
-    margin-bottom: 250px;
-    padding: 10px;
+    border: 3px solid #24ae8f; 
     background: black;
-    border-radius: 5px 5px 5px 5px;
+    /* width: 100px;
+    height: 100px; */
+    margin: auto;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    width: min(35%);
+    min-height: 25rem;
 }
 
 #contact-head {
-    padding-bottom: 10px;
+    padding-bottom: 0.625rem;
+}
+
+#form-container {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .my-form-button {
@@ -304,7 +342,7 @@ body {
     background-color:#24ae8f ;
     color: black;
     padding: 6px 12px;
-    margin-top: 10px;   
+    margin-top: .1rem;   
     border: 2px solid transparent;
     text-decoration: none;
     font-weight: bold;
@@ -317,13 +355,13 @@ body {
 }
 
 #message {
-    padding: 25px;
+    padding: 1.563rem;
 }
 
 #cards-header {
     color:#24ae8f ;
     display: flex;
     justify-content: center;
-    margin-top: 300px;
-    font-size: 50px; 
+    margin-top: 18.75rem;
+    font-size: 3.125rem;
 }
