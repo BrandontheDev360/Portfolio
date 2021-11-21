@@ -176,11 +176,11 @@ body {
 }
 
 .card-img-top:hover {
-    transform: scale(1.3);
+    transform: scale(1.2);
 }
 
 .card-img-top-cat:hover {
-    transform: scale(1.3);
+    transform: scale(1.2);
 }
 
 
