@@ -212,6 +212,7 @@ body {
 .btn:hover {
     background-color: transparent;
     border:2px solid #24ae8f;
+    color: white;
 }
 
 #about-me {
