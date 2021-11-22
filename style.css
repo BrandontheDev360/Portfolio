@@ -120,12 +120,24 @@ body {
     color: #24ae8f;
 }
 
+.navbar-brand:hover {
+    color: #7308f5;
+}
+
 .icon-img {
     order: -1;
 }
 
+/* .icon-img:hover {
+    color: #7308f5;
+} */
+
 .nav-link {
     color: #24ae8f;
+}
+
+.nav-link:hover {
+    color: #7308f5;
 }
 
 .card {
@@ -343,7 +355,8 @@ body {
     align-items: center;
     flex-direction: column;
     color: #24ae8f;
-    border: 3px solid #24ae8f; 
+    border: 0.188rem solid #24ae8f; 
+    border-radius: 1.25rem 1.25rem;
     background: black;
     /* width: 100px;
     height: 100px; */
@@ -356,7 +369,19 @@ body {
 }
 
 #contact-head {
-    padding-bottom: 0.625rem;
+    color: white;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+#formbutton-title {
+    border-radius: 0.75rem 0.75rem 0 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    min-width: 3rem;
+    min-height: 3rem;
+    justify-content: center;
 }
 
 #form-container {
@@ -377,8 +402,9 @@ body {
 }
 
 .my-form-button:hover {
-    background-color: transparent;
+    background-color: black;
     border:2px solid #24ae8f;
+    color: white;
 }
 
 #message {
