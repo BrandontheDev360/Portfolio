@@ -142,6 +142,7 @@ body {
 
 .card {
     border: 3px solid #24ae8f;
+    margin: 1rem;
 }
 
 .card-title {
@@ -152,7 +153,6 @@ body {
 
 .card-body {
     background-color: black ;
-    color: #24ae8f;
     color: white;
 }
 
