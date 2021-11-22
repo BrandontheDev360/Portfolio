@@ -154,6 +154,7 @@ body {
 .card-body {
     background-color: black ;
     color: white;
+    box-shadow: 0px 15px 30px rgba(255, 255, 255, 0.233);
 }
 
 .card-img-top {
@@ -163,6 +164,7 @@ body {
     position: relative;
     display: flex;
     flex-wrap: wrap;
+    box-shadow: 0px 15px 30px rgba(255, 255, 255, 0.233);
 }
 
 #cards {
@@ -311,7 +313,6 @@ body {
     justify-content: space-between;
     min-width: 18rem;
     min-height: 10rem;
-    
 }
 
 #fontIcons > i {
@@ -367,6 +368,8 @@ body {
     width: min(35%);
     min-width: 20rem;
     min-height: 20rem;
+    box-shadow: 0px 7px 15px rgba(255, 255, 255, 0.473);
+
 }
 
 #contact-head {
