@@ -154,7 +154,7 @@ body {
 .card-body {
     background-color: black ;
     color: white;
-    box-shadow: 0px 15px 30px rgba(255, 255, 255, 0.233);
+    box-shadow: 0px 15px 30px #24ae8f;
 }
 
 .card-img-top {
@@ -164,7 +164,7 @@ body {
     position: relative;
     display: flex;
     flex-wrap: wrap;
-    box-shadow: 0px 15px 30px rgba(255, 255, 255, 0.233);
+    box-shadow: 0px 15px 30px #24ae8f;
 }
 
 #cards {
