@@ -164,7 +164,7 @@ body {
     position: relative;
     display: flex;
     flex-wrap: wrap;
-    box-shadow: 0px 15px 30px #24ae8f;
+    /* box-shadow: 0px 15px 30px #24ae8f; */
 }
 
 #cards {
@@ -368,7 +368,7 @@ body {
     width: min(35%);
     min-width: 20rem;
     min-height: 20rem;
-    box-shadow: 0px 7px 15px rgba(255, 255, 255, 0.473);
+    box-shadow: 0px 7px 15px #24ae8f ;
 
 }
 
