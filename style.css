@@ -208,9 +208,9 @@ body {
     padding: 6px 12px;
     border: 2px solid transparent;
     text-decoration: none;
-    transition: all .5s ease-in-out;
+    transition: all .3s ease-in-out;
     transition-property: all;
-    transition-duration: 0.5s;
+    transition-duration: 0.3s;
     transition-timing-function: ease-in-out;
     transition-delay: 0s;
 }
@@ -348,9 +348,9 @@ body {
     text-decoration: none;
     font-weight: bold;
     margin-top: 2.5rem;
-    transition: all .5s ease-in-out;
+    transition: all .3s ease-in-out;
     transition-property: all;
-    transition-duration: 0.5s;
+    transition-duration: 0.3s;
     transition-timing-function: ease-in-out;
     transition-delay: 0s;
 }
@@ -410,9 +410,9 @@ body {
     border: 2px solid transparent;
     text-decoration: none;
     font-weight: bold;
-    transition: all .5s ease-in-out;
+    transition: all .3s ease-in-out;
     transition-property: all;
-    transition-duration: 0.5s;
+    transition-duration: 0.3s;
     transition-timing-function: ease-in-out;
     transition-delay: 0s;
 }
