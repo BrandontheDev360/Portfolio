@@ -208,7 +208,11 @@ body {
     padding: 6px 12px;
     border: 2px solid transparent;
     text-decoration: none;
-    transition: .4s;
+    transition: all .5s ease-in-out;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
 }
 
 .btn:hover {
@@ -343,8 +347,12 @@ body {
     border: 2px solid transparent;
     text-decoration: none;
     font-weight: bold;
-    transition: .4s;
     margin-top: 2.5rem;
+    transition: all .5s ease-in-out;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
 }
 
 .about-btn:hover {
@@ -402,7 +410,11 @@ body {
     border: 2px solid transparent;
     text-decoration: none;
     font-weight: bold;
-    transition: .4s;
+    transition: all .5s ease-in-out;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
 }
 
 .my-form-button:hover {
