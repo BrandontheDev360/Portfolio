@@ -161,7 +161,7 @@ body {
 }
 
 .card-img-top {
-    width: auto;
+    max-width: 100%;
     transition: .3s ease;
     overflow: hidden;
     position: relative;
