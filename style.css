@@ -437,9 +437,16 @@ body {
   color: white;
 }
 
-#message {
-  padding: 1.563rem;
+#txtArea {
+  min-width: 55%;
+  max-width: 55%;
+  min-height: 40%;
+  max-height: 40%;
 }
+
+/* #message {
+  padding: 1.563rem;
+} */
 
 #cards-header {
   color: #24ae8f;
