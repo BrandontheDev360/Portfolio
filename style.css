@@ -444,9 +444,9 @@ body {
   max-height: 40%;
 }
 
-/* #message {
+#message {
   padding: 1.563rem;
-} */
+}
 
 #cards-header {
   color: #24ae8f;
