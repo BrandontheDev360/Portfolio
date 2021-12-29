@@ -55,3 +55,19 @@ function textAreaAdjust(element) {
     element.style.height = "1px";
     element.style.height = (25+element.scrollHeight)+"px";
 };
+
+// const card = document.querySelectorAll(".card")
+// const observer = new IntersectionObserver(entries => {
+//     entries.forEach(entry => {
+//         entry.target.classList.toggle("show", entry.isIntersecting)
+//         if (entry.isIntersecting) observer.unobserve(entry.target)
+//         })
+//     },
+// {
+//     threshold: 1
+// }
+// )
+
+// card.forEach(card => {
+//     observer.observe(card)
+// })

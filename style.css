@@ -68,7 +68,7 @@ a {
 
 .name-head::before {
   background-image: url(./Assets/green-sun.jpg);
-  animation: typewriter 3.5s steps(39) forwards;
+  animation: typewriter 3.5s steps(47) forwards;
 }
 
 .name-head::after {
