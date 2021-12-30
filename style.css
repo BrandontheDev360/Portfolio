@@ -304,6 +304,7 @@ body {
   color: #24ae8f;
   letter-spacing: 0.125rem;
   width: min(75%);
+  text-align-last: center;
   /* font-size: clamp(1rem, 2vmin, 1rem); */
 }
 
