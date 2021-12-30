@@ -126,8 +126,6 @@ body {
 } */
 
 nav a {
-  background-color: black;
-  border-radius: 30px;
   animation-name: nav-link-load;
   animation-duration: var(--nav-link-load-time);
   animation-delay: var(--nav-load-time);
