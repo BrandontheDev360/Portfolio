@@ -10,11 +10,10 @@
 </head>
 <body>
     <!--Navbar-->
-    <nav class="navbar sticky-top">
-        <div class="container-fluid">
+    <nav class="navbar navbar-expand sticky-top">
+        <div class="container-fluid d-flex justify-content-around">
                 <!-- <i class="fab fa-git"></i>
                 <i id="linkedin" class="fab fa-linkedin"></i> -->
-        <a class="navbar-brand" href="#">Brandon's Portfolio</a>
         <a class="icon-img" href="#">
         <img src="Assets/green-sun-icon.jpg" class="icon-img" alt="icon">
         </a>
@@ -24,7 +23,7 @@
         </div>
     </nav>
     <!--Name Section-->
-    <section id="name">
+    <section id="name" class="container">
         <div class="container">
             <h1 class="name-head"> < Welcome to Brandon Nguyen's Portfolio . . . /> </h1><br>
             
@@ -159,7 +158,7 @@
         <label>Email:</label>
         <input placeholder="your@email.com" type="email" name="email" /> <br>
         <label id="form-message">Message:</label>
-        ​<textarea id="txtArea" rows="7" cols="35" placeholder="What's on your mind?" onkeyup="textAreaAdjust(this)" style="overflow:hidden"></textarea>
+        <textarea id="txtArea" rows="7" cols="35" placeholder="What's on your mind?" onkeyup="textAreaAdjust(this)" style="overflow:hidden"></textarea>
         <button class="my-form-button">Submit</button>
         <p id="my-form-status"></p>
     </form>
