@@ -24,16 +24,6 @@ a {
   color: #24ae8f;
 }
 
-@media (min-width: 250px) {
-      .about-heading2 {
-        margin-left: 3.5rem;
-      }
-
-      .about-heading {
-        margin-left: 3.5rem;
-      }
-    
-}
 
 .container {
   min-height: 60rem;
