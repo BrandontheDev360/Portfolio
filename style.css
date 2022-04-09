@@ -239,6 +239,7 @@ body {
   justify-content: center;
   flex-direction: column;
   color: white;
+  flex-wrap: wrap;
   /* width: 100%; */
 }
 
@@ -288,8 +289,6 @@ body {
 } */
 
 .about-description {
-  margin-left: 25rem;
-  margin-right: 25rem;
   color: #24ae8f;
   letter-spacing: 0.125rem;
   width: min(75%);
@@ -302,8 +301,6 @@ body {
     margin-right: 100px; */
   color: #24ae8f;
   letter-spacing: 2px;
-  margin-left: 10rem;
-  margin-right: 10rem;
   width: min(55%);
 }
 
