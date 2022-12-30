@@ -82,7 +82,7 @@ a {
 
 @keyframes typewriter {
   to {
-    left: calc(100% - (10ch + 20ch));
+    left: 100%;
   }
 }
 
