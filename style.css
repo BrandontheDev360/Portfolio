@@ -64,12 +64,17 @@ a {
   bottom: 0;
   left: 0;
   right: 0;
+  width: 100%; /* added */
+  white-space: pre-wrap; /* added */
+  overflow-wrap: break-word; /* added */
 }
 
 .name-head::before {
   background-image: url(./Assets/green-sun.jpg);
   animation: typewriter 3.5s steps(47) forwards;
   width: 100%; /* added */
+  white-space: pre-wrap; /* added */
+  overflow-wrap: break-word; /* added */
 }
 
 .name-head::after {
@@ -77,6 +82,8 @@ a {
   background: #24ae8f;
   animation: typewriter 3.5s steps(39) forwards, blink 675ms steps(39) infinite;
   width: 100%; /* added */
+  white-space: pre-wrap; /* added */
+  overflow-wrap: break-word; /* added */
 }
 
 @keyframes typewriter {
