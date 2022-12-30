@@ -49,6 +49,9 @@ a {
   position: relative;
   font-family: "Source Sans Pro", monospace;
   margin-bottom: 30rem;
+  display: inline-block; /* added */
+  text-align: center; /* added */
+  width: 100%; /* added */
 }
 
 .name-head::before,
@@ -64,12 +67,14 @@ a {
 .name-head::before {
   background-image: url(./Assets/green-sun.jpg);
   animation: typewriter 3.5s steps(47) forwards;
+  width: 100%; /* added */
 }
 
 .name-head::after {
   width: 0.124em;
   background: #24ae8f;
   animation: typewriter 3.5s steps(39) forwards, blink 675ms steps(39) infinite;
+  width: 100%; /* added */
 }
 
 @keyframes typewriter {
