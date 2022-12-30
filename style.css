@@ -52,6 +52,8 @@ a {
   display: inline-block; /* added */
   text-align: center; /* added */
   width: 100%; /* added */
+  white-space: pre-wrap; /* added */
+  overflow-wrap: break-word; /* added */
 }
 
 .name-head::before,
